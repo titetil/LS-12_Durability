@@ -1,0 +1,136 @@
+<?XML Version="1.0">
+<nidocument>
+<nicomment>
+<nifamily familyname="LV PID and Fuzzy Logic Toolkit" displayname="LV PID and Fuzzy Logic Toolkit">
+</nifamily>
+</nicomment>
+<nierror code="-1622">
+LV PID and Fuzzy Logic Toolkit:  入力ポイントのサイズおよび初期状態は、同じではありません。
+</nierror>
+<nierror code="-1621">
+LV PID and Fuzzy Logic Toolkit:  入力ポイントのサイズおよび初期状態は、同じではありません。
+</nierror>
+<nierror code="-1620">
+LV PID and Fuzzy Logic Toolkit:  入力ポイントのサイズおよび初期状態は、同じではありません。
+</nierror>
+<nierror code="-1619">
+LV PID and Fuzzy Logic Toolkit:  入力ポイントのサイズおよび初期状態は、同じではありません。
+</nierror>
+<nierror code="-1618">
+LV PID and Fuzzy Logic Toolkit:  入力ポイントのサイズおよび初期状態は、同じではありません。
+</nierror>
+<nierror code="-1617">
+LV PID and Fuzzy Logic Toolkit:  入力ポイントのサイズとzeros-poles-gainsは、同じではありません。
+</nierror>
+<nierror code="-1616">
+LV PID and Fuzzy Logic Toolkit:  入力ポイントのサイズと転送関数は、同じではありません。
+</nierror>
+<nierror code="-1615">
+LV PID and Fuzzy Logic Toolkit:  入力ポイントのサイズとフィルタ係数は、同じではありません。
+</nierror>
+<nierror code="-1614">
+LV PID and Fuzzy Logic Toolkit:  入力ポイントのサイズ、初期状態、そして境界が同じではありません。
+</nierror>
+<nierror code="-1613">
+LV PID and Fuzzy Logic Toolkit:  入力ポイントのサイズおよび初期状態は、同じではありません。
+</nierror>
+<nierror code="-1612">
+LV PID and Fuzzy Logic Toolkit:  入力ポイントのサイズと零点/極/ゲインは、同じではありません。
+</nierror>
+<nierror code="-1611">
+LV PID and Fuzzy Logic Toolkit:  入力ポイントのサイズと転送関数は、同じではありません。
+</nierror>
+<nierror code="-1610">
+LV PID and Fuzzy Logic Toolkit:  入力ポイントのサイズおよび初期状態は、同じではありません。
+</nierror>
+<nierror code="-1609">
+LV PID and Fuzzy Logic Toolkit:  入力ポイントのサイズ、初期状態、そして境界が同じではありません。
+</nierror>
+<nierror code="-1608">
+LV PID and Fuzzy Logic Toolkit:  入力ポイントのサイズおよび初期状態は、同じではありません。
+</nierror>
+<nierror code="-1607">
+LV PID and Fuzzy Logic Toolkit:  上限が下限よりも小さいです。
+</nierror>
+<nierror code="-1606">
+LV PID and Fuzzy Logic Toolkit:  スイッチオフポイントはスイッチオンポイントよりも大きいです。
+</nierror>
+<nierror code="-1605">
+LV PID and Fuzzy Logic Toolkit:  量子化の区間が負の値です。
+</nierror>
+<nierror code="-1604">
+LV PID and Fuzzy Logic Toolkit:  離散フィルタ仕様で失敗しました。
+</nierror>
+<nierror code="-1603">
+LV PID and Fuzzy Logic Toolkit:  不良な状態のMIMOシステムです。
+</nierror>
+<nierror code="-1602">
+LV PID and Fuzzy Logic Toolkit:  多項式の最も高い係数は0に近いです。
+</nierror>
+<nierror code="-1601">
+LV PID and Fuzzy Logic Toolkit:  分子/分母が不一致です。
+</nierror>
+<nierror code="-1600">
+LV PID and Fuzzy Logic Toolkit:  上限が加減よりも小さいです。
+</nierror>
+<nierror code="-1524">
+LV PID and Fuzzy Logic Toolkit:  ユーザ定義のメンバーシップ関数の入力ベクトルでは、XとYが単調に増加する値でなければなりません。
+</nierror>
+<nierror code="-1523">
+LV PID and Fuzzy Logic Toolkit:  ルールの正しくない数値です。
+</nierror>
+<nierror code="-1522">
+LV PID and Fuzzy Logic Toolkit:  ファジーコントローラファイルをロード中に、エラーが発生しました。
+</nierror>
+<nierror code="-1521">
+LV PID and Fuzzy Logic Toolkit:  ファジーコントローラファイルを開いているときに、エラーが発生しました。
+</nierror>
+<nierror code="-1519">
+LV PID and Fuzzy Logic Toolkit:  結果項目が見つかりませんでした。
+</nierror>
+<nierror code="-1518">
+LV PID and Fuzzy Logic Toolkit:  処理値の数が正しくありません。
+</nierror>
+<nierror code="-1517">
+LV PID and Fuzzy Logic Toolkit:  アクティブな結果項目の数が正しくありません。
+</nierror>
+<nierror code="-1516">
+LV PID and Fuzzy Logic Toolkit:  先行変数名が見つかりません。
+</nierror>
+<nierror code="-1515">
+LV PID and Fuzzy Logic Toolkit:  入力は先行項目x minよりも小さいです。
+</nierror>
+<nierror code="-1514">
+LV PID and Fuzzy Logic Toolkit:  入力が、先行項目x maxよりも大きいです。
+</nierror>
+<nierror code="-1512">
+LV PID and Fuzzy Logic Toolkit:  入力の数が、先行変数の数と一致しません。
+</nierror>
+<nierror code="-1511">
+LV PID and Fuzzy Logic Toolkit:  先行変数が、複数回使用されています。
+</nierror>
+<nierror code="-1509">
+LV PID and Fuzzy Logic Toolkit:  結果項目の数が正しくありません。
+</nierror>
+<nierror code="-1508">
+LV PID and Fuzzy Logic Toolkit:  結果変数の数が正しくありません。
+</nierror>
+<nierror code="-1507">
+LV PID and Fuzzy Logic Toolkit:  先行項目の数が正しくありません。
+</nierror>
+<nierror code="-1506">
+LV PID and Fuzzy Logic Toolkit:  先行変数の数が正しくありません。
+</nierror>
+<nierror code="-1504">
+LV PID and Fuzzy Logic Toolkit:  Lingustic term x maxはx minよりも小さいです。
+</nierror>
+<nierror code="-1503">
+LV PID and Fuzzy Logic Toolkit:  Linguistic term point(s)はx minよりも小さいです。
+</nierror>
+<nierror code="-1502">
+LV PID and Fuzzy Logic Toolkit:  Linguistic term point(s)はx maxよりも大きいです。
+</nierror>
+<nierror code="-1501">
+LV PID and Fuzzy Logic Toolkit:  Liguistic term pointsは範囲外です。
+</nierror>
+</nidocument>

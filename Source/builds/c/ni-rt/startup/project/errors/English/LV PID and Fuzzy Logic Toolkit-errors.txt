@@ -1,0 +1,136 @@
+<?XML Version="1.0">
+<nidocument>
+<nicomment>
+<nifamily familyname="LV PID and Fuzzy Logic Toolkit" displayname="LV PID and Fuzzy Logic Toolkit">
+</nifamily>
+</nicomment>
+<nierror code="-1622">
+LV PID and Fuzzy Logic Toolkit:  Size of input points and initial conditions are not the same.
+</nierror>
+<nierror code="-1621">
+LV PID and Fuzzy Logic Toolkit:  Size of input points and initial conditions are not the same.
+</nierror>
+<nierror code="-1620">
+LV PID and Fuzzy Logic Toolkit:  Size of input points and initial conditions are not the same.
+</nierror>
+<nierror code="-1619">
+LV PID and Fuzzy Logic Toolkit:  Size of input points and initial conditions are not the same.
+</nierror>
+<nierror code="-1618">
+LV PID and Fuzzy Logic Toolkit:  Size of input points and initial conditions are not the same.
+</nierror>
+<nierror code="-1617">
+LV PID and Fuzzy Logic Toolkit:  Size of input points and zeros-poles-gains are not the same.
+</nierror>
+<nierror code="-1616">
+LV PID and Fuzzy Logic Toolkit:  Size of input points and transfer functions are not the same.
+</nierror>
+<nierror code="-1615">
+LV PID and Fuzzy Logic Toolkit:  Size of input points and filter coefficients are not the same.
+</nierror>
+<nierror code="-1614">
+LV PID and Fuzzy Logic Toolkit:  Size of input points, initial conditions and bounds are not the same.
+</nierror>
+<nierror code="-1613">
+LV PID and Fuzzy Logic Toolkit:  Size of input points and initial conditions are not the same.
+</nierror>
+<nierror code="-1612">
+LV PID and Fuzzy Logic Toolkit:  Size of input points and zeros-poles-gains are not the same.
+</nierror>
+<nierror code="-1611">
+LV PID and Fuzzy Logic Toolkit:  Size of input points and transfer functions are not the same.
+</nierror>
+<nierror code="-1610">
+LV PID and Fuzzy Logic Toolkit:  Size of input points and initial conditions are not the same.
+</nierror>
+<nierror code="-1609">
+LV PID and Fuzzy Logic Toolkit:  Size of input points and initial conditions, and bounds are not the same.
+</nierror>
+<nierror code="-1608">
+LV PID and Fuzzy Logic Toolkit:  Size of input points and initial conditions are not the same.
+</nierror>
+<nierror code="-1607">
+LV PID and Fuzzy Logic Toolkit:  Upper limit<lower limit.
+</nierror>
+<nierror code="-1606">
+LV PID and Fuzzy Logic Toolkit:  Switch off point is greater than switch on point.
+</nierror>
+<nierror code="-1605">
+LV PID and Fuzzy Logic Toolkit:  Quantization interval negative.
+</nierror>
+<nierror code="-1604">
+LV PID and Fuzzy Logic Toolkit:  Failure in discrete filter specification.
+</nierror>
+<nierror code="-1603">
+LV PID and Fuzzy Logic Toolkit:  Ill-conditioned MIMO system.
+</nierror>
+<nierror code="-1602">
+LV PID and Fuzzy Logic Toolkit:  Highest coefficient of a polynomial close to 0.
+</nierror>
+<nierror code="-1601">
+LV PID and Fuzzy Logic Toolkit:  Numerator/denominator inconsistency.
+</nierror>
+<nierror code="-1600">
+LV PID and Fuzzy Logic Toolkit:  Upper bound<lower bound.
+</nierror>
+<nierror code="-1524">
+LV PID and Fuzzy Logic Toolkit:  The input vector of the user-defined membership function shape must be monotonic, increasing values in X and Y.
+</nierror>
+<nierror code="-1523">
+LV PID and Fuzzy Logic Toolkit:  Incorrect number of rules.
+</nierror>
+<nierror code="-1522">
+LV PID and Fuzzy Logic Toolkit:  Error loading fuzzy controller file.
+</nierror>
+<nierror code="-1521">
+LV PID and Fuzzy Logic Toolkit:  Error opening fuzzy controller file.
+</nierror>
+<nierror code="-1519">
+LV PID and Fuzzy Logic Toolkit:  Consequence term not found.
+</nierror>
+<nierror code="-1518">
+LV PID and Fuzzy Logic Toolkit:  Incorrect number of fulfillment values.
+</nierror>
+<nierror code="-1517">
+LV PID and Fuzzy Logic Toolkit:  Incorrect number of active consequence terms.
+</nierror>
+<nierror code="-1516">
+LV PID and Fuzzy Logic Toolkit:  Antecedent variable name not found.
+</nierror>
+<nierror code="-1515">
+LV PID and Fuzzy Logic Toolkit:  Input is less than antecedance term x min.
+</nierror>
+<nierror code="-1514">
+LV PID and Fuzzy Logic Toolkit:  Input is greater than antecedance term x max.
+</nierror>
+<nierror code="-1512">
+LV PID and Fuzzy Logic Toolkit:  Number of inputs does not match number of antecedent variables.
+</nierror>
+<nierror code="-1511">
+LV PID and Fuzzy Logic Toolkit:  Antecedent variable used multiple times.
+</nierror>
+<nierror code="-1509">
+LV PID and Fuzzy Logic Toolkit:  Incorrect number of consequent terms.
+</nierror>
+<nierror code="-1508">
+LV PID and Fuzzy Logic Toolkit:  Incorrect number of consequent variables.
+</nierror>
+<nierror code="-1507">
+LV PID and Fuzzy Logic Toolkit:  Incorrect number of antecedent terms.
+</nierror>
+<nierror code="-1506">
+LV PID and Fuzzy Logic Toolkit:  Incorrect number of antecedent variables.
+</nierror>
+<nierror code="-1504">
+LV PID and Fuzzy Logic Toolkit:  Linguistic term x max is less than x min.
+</nierror>
+<nierror code="-1503">
+LV PID and Fuzzy Logic Toolkit:  Linguistic term point(s) are less than x min.
+</nierror>
+<nierror code="-1502">
+LV PID and Fuzzy Logic Toolkit:  Linguistic term point(s) are greater than x max.
+</nierror>
+<nierror code="-1501">
+LV PID and Fuzzy Logic Toolkit:  Linguistic term points are out of order.
+</nierror>
+</nidocument>

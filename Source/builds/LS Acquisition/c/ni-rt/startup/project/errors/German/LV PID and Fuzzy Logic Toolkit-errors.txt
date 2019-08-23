@@ -1,0 +1,136 @@
+<?XML Version="1.0">
+<nidocument>
+<nicomment>
+<nifamily familyname="LV PID and Fuzzy Logic Toolkit" displayname="LV PID and Fuzzy Logic Toolkit">
+</nifamily>
+</nicomment>
+<nierror code="-1622">
+LV PID and Fuzzy Logic Toolkit:  Größen der Eintrittspunkte und Anfangsbedingungen sind nicht gleich.
+</nierror>
+<nierror code="-1621">
+LV PID and Fuzzy Logic Toolkit:  Größen der Eintrittspunkte und Anfangsbedingungen sind nicht gleich.
+</nierror>
+<nierror code="-1620">
+LV PID and Fuzzy Logic Toolkit:  Größen der Eintrittspunkte und Anfangsbedingungen sind nicht gleich.
+</nierror>
+<nierror code="-1619">
+LV PID and Fuzzy Logic Toolkit:  Größen der Eintrittspunkte und Anfangsbedingungen sind nicht gleich.
+</nierror>
+<nierror code="-1618">
+LV PID and Fuzzy Logic Toolkit:  Größen der Eintrittspunkte und Anfangsbedingungen sind nicht gleich.
+</nierror>
+<nierror code="-1617">
+LV PID and Fuzzy Logic Toolkit:  Größen der Eintrittspunkte und Zeros-Poles-Gains sind nicht gleich.
+</nierror>
+<nierror code="-1616">
+LV PID and Fuzzy Logic Toolkit:  Größen der Eintrittspunkte und Transfer-Funktionen sind nicht gleich.
+</nierror>
+<nierror code="-1615">
+LV PID and Fuzzy Logic Toolkit:  Größe der Eintrittspunkte und Filterkoeffizienten sind nicht gleich.
+</nierror>
+<nierror code="-1614">
+LV PID and Fuzzy Logic Toolkit:  Größe der Eintrittspunkte, Anfangsbedingungen und Begrenzungen sind nicht gleich.
+</nierror>
+<nierror code="-1613">
+LV PID and Fuzzy Logic Toolkit:  Größe der Eintrittspunkte und Anfangsbedingungen sind nicht gleich.
+</nierror>
+<nierror code="-1612">
+LV PID and Fuzzy Logic Toolkit:  Größe der Eintrittspunkte und Zeros-Poles-Gains sind nicht gleich.
+</nierror>
+<nierror code="-1611">
+LV PID and Fuzzy Logic Toolkit:  Größe der Eintrittspunkte und der Transfer-Funktionen sind nicht gleich.
+</nierror>
+<nierror code="-1610">
+LV PID and Fuzzy Logic Toolkit:  Größe der Eintrittspunkte und Anfangsbedingungen sind nicht gleich.
+</nierror>
+<nierror code="-1609">
+LV PID and Fuzzy Logic Toolkit:  Größe der Eintrittspunkte und Anfangsbedingungen, sowie der Begrenzungen sind nicht gleich.
+</nierror>
+<nierror code="-1608">
+LV PID and Fuzzy Logic Toolkit:  Größe der Eintrittspunkte und Anfangsbedingungen sind nicht gleich.
+</nierror>
+<nierror code="-1607">
+LV PID and Fuzzy Logic Toolkit:  Oberes Limit < Unteres Limit.
+</nierror>
+<nierror code="-1606">
+LV PID and Fuzzy Logic Toolkit:  Der Ausschaltpunkt liegt über dem Einschaltpunkt.
+</nierror>
+<nierror code="-1605">
+LV PID and Fuzzy Logic Toolkit:  Quantisierungs-Interval ist negativ.
+</nierror>
+<nierror code="-1604">
+LV PID and Fuzzy Logic Toolkit:  Fehler in diskreter Filterspezifikation.
+</nierror>
+<nierror code="-1603">
+LV PID and Fuzzy Logic Toolkit:  Schlecht beschaffenes MIMO-System.
+</nierror>
+<nierror code="-1602">
+LV PID and Fuzzy Logic Toolkit:  Der höchstwertige Koeffizient eines Polynoms ist fast 0.
+</nierror>
+<nierror code="-1601">
+LV PID and Fuzzy Logic Toolkit:  Inkonsistenz zwischen Zähler/Nenner.
+</nierror>
+<nierror code="-1600">
+LV PID and Fuzzy Logic Toolkit:  Oberes Limit < Unteres Limit.
+</nierror>
+<nierror code="-1524">
+LV PID and Fuzzy Logic Toolkit:  Der Eingangsvektor der benutzerdefinierten Membership-Funktion muss monoton steigende Werte in X und Y haben.
+</nierror>
+<nierror code="-1523">
+LV PID and Fuzzy Logic Toolkit:  Falsche Anzahl an Regeln.
+</nierror>
+<nierror code="-1522">
+LV PID and Fuzzy Logic Toolkit:  Fehler beim Laden der Fuzzy-Controller-Datei.
+</nierror>
+<nierror code="-1521">
+LV PID and Fuzzy Logic Toolkit:  Fehler beim Öffnen der Fuzzy-Controller-Datei.
+</nierror>
+<nierror code="-1519">
+LV PID and Fuzzy Logic Toolkit:  Folge-Term nicht gefunden.
+</nierror>
+<nierror code="-1518">
+LV PID and Fuzzy Logic Toolkit:  Falsche Anzahl an Realisierungswerten.
+</nierror>
+<nierror code="-1517">
+LV PID and Fuzzy Logic Toolkit:  Falsche Anzahl aktiver Folge-Terme.
+</nierror>
+<nierror code="-1516">
+LV PID and Fuzzy Logic Toolkit:  Name der Bezugsvariablen wurde nicht gefunden.
+</nierror>
+<nierror code="-1515">
+LV PID and Fuzzy Logic Toolkit:  Eingang ist kleiner als der Bezugs-Term x-Min.
+</nierror>
+<nierror code="-1514">
+LV PID and Fuzzy Logic Toolkit:  Eingang ist größer als der Bezugs-Term x-Max.
+</nierror>
+<nierror code="-1512">
+LV PID and Fuzzy Logic Toolkit:  Die Anzahl der Eingangswerte stimmt nicht mit der Anzahl der Bezugsvariablen überein.
+</nierror>
+<nierror code="-1511">
+LV PID and Fuzzy Logic Toolkit:  Bezugs-Variable wurde mehrfach verwendet.
+</nierror>
+<nierror code="-1509">
+LV PID and Fuzzy Logic Toolkit:  Falsche Anzahl an Folgetermen.
+</nierror>
+<nierror code="-1508">
+LV PID and Fuzzy Logic Toolkit:  Falsche Anzahl an Folgevariablen.
+</nierror>
+<nierror code="-1507">
+LV PID and Fuzzy Logic Toolkit:  Falsche Anzahl an Bezugstermen.
+</nierror>
+<nierror code="-1506">
+LV PID and Fuzzy Logic Toolkit:  Falsche Anzahl an Bezugsvariablen.
+</nierror>
+<nierror code="-1504">
+LV PID and Fuzzy Logic Toolkit:  Linguistischer Term x-Max ist größer als x-Min.
+</nierror>
+<nierror code="-1503">
+LV PID and Fuzzy Logic Toolkit:  Punkt(e) der linguistischen Terme ist/sind kleiner als x-Min.
+</nierror>
+<nierror code="-1502">
+LV PID and Fuzzy Logic Toolkit:  Punkt(e) der linguistischen Terme ist/sind größer als x-Max.
+</nierror>
+<nierror code="-1501">
+LV PID and Fuzzy Logic Toolkit:  Punkte der linguistischen Terme liegen ausserhalb des Bereichs.
+</nierror>
+</nidocument>

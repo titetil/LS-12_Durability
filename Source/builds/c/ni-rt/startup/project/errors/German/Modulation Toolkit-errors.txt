@@ -1,0 +1,494 @@
+<?xml version="1.0" ?>
+<nidocument>
+<nicomment>
+<nifamily displayname="Modulation Toolkit" familyname="Modulation Toolkit"/>
+</nicomment>
+<nierror code="-20551">
+Die Daten am Eingang "Receiver Info in" stammen nicht vom VI "MT Initialize Receiver Info". Die Empfängerdaten müssen jedoch immer von diesem VI kommen. 
+Hinweis: Die MT-VIs ändern nicht die Empfängerdaten, die über die Verbindung übertragen werden. Daher können der Eingang "Receiver Info In" und "Receiver Info Out" als Bestandteil derselben Verbindung betrachtet werden.
+</nierror>
+<nierror code="-20552">
+Das niScope-Handle des Empfängerinfo-Eingangsclusters ist kein gültiges Handle für ein NI-SCOPE-Gerät.
+</nierror>
+<nierror code="-20553">
+Der angegebene Empfänger ist kein RFSA- oder NI-SCOPE-Gerät.
+</nierror>
+<nierror code="-20554">
+Die aufgerufene Konfigurationsfunktion passt nicht zum Empfängertypen, der auf der Verbindung für die Empfängerinfo angegeben wurde. Rufen Sie zum Anzeigen und Bearbeiten der Empfängerattribute die VIs "MT Get Attributes" und "MT Set Attributes" auf.
+</nierror>
+<nierror code="-20555">
+Das VI "mod_IQ ViRef Table" wird intern vom Modulation Toolkit verwendet. Die Nutzung außerhalb des Modulation Toolkits wird nicht empfohlen. 
+
+Das VI "mod_IQ ViRef Table" überwacht die VI-Referenzen zur I-Q-Downconversion. Zu jeder Referenz gibt es eine vom Benutzer festgelegte Kennung, die als Variant gespeichert wird. Es kann jeder Variant außer Null verwendet werden.  
+
+Dieser Fehler wird von keinem Modulation-Toolkit-Paletten-VI ausgegeben.
+</nierror>
+<nierror code="-20556">
+Das TaskID-Element des Empfängerinfo-Eingangsclusters ist kein gültiges Handle für ein PXI-5600-RF-Frequenzumsetzermodul.
+</nierror>
+<nierror code="-20559">
+Die angeforderte Sample-Rate ist für die angegebene Bandbreite des Durchlassbereichs zu klein. Erhöhen Sie die Sample-Rate oder verringern Sie die Bandbreite.
+</nierror>
+<nierror code="-20560">
+Beim Laden einer DLL des Modulation Toolkit trat ein Fehler auf.
+</nierror>
+<nierror code="-20561">
+Beim Laden einer DLL des Modulation Toolkit trat ein Fehler auf.
+</nierror>
+<nierror code="-20562">
+Die angegebene Funktion konnte in keiner DLL des Modulation Toolkit gefunden werden.
+</nierror>
+<nierror code="-20564">
+Beim Laden der angeforderten Funktion von einer DLL des Modulation Toolkit trat ein Problem auf. Die DLL ist eventuell nicht oder an der falschen Stelle installiert.
+</nierror>
+<nierror code="-20565">
+Zum Handle des Modulation Toolkit gehörige Attribute stehen erst zur Verfügung, wenn das Handle erzeugt (mit ModtCreateSessionInfoHandle) und konfiguriert [Aufruf von ModtInitReceiverInfo...? (nur für RFSA und Digitizer) und ModtConfigDownconversionSettings] wurde.
+</nierror>
+<nierror code="-20566">
+Der Versuch, ein VI mithilfe des VI-Servers dynamisch aufzurufen, schlug fehl. Möglicherweise ist eine DLL-Datei beschädigt.
+</nierror>
+<nierror code="-20567">
+Es trat ein interner Fehler auf; setzen Sie sich mit dem technischen Support von National Instruments in Verbindung.
+</nierror>
+<nierror code="-20568">
+Eventuell fehlen notwendige Treiber; Stellen Sie vor erneuter Installation der Palette mit den Modulations-VIs sicher, dass die erforderlichen Versionen von  NI-SCOPE und NI-TUNER installiert sind.
+</nierror>
+<nierror code="-20569">
+Ungültige Sample-Rate für angeforderten Träger. Die Sample-Rate muss größer als das Doppelte der Trägerfrequenz sein.
+</nierror>
+<nierror code="-20570">
+Abwärtswandlungsfilter konnte nicht erstellt werden; Verwenden Sie weniger einschränkende Filterparameter.
+</nierror>
+<nierror code="-20571">
+Ungültiger Modulationsindex; Wert muss größer als 0 sein.
+</nierror>
+<nierror code="-20572">
+Ungültige Pilotfrequenz; Geben Sie eine Pilotfrequenz an, so dass abs(Pilotfrequenz * dT) kleiner oder gleich 0,5 ist.
+</nierror>
+<nierror code="-20573">
+Ungültige Filterabgriffe für Hilbert-Filterentwurf; Geben Sie eine Filterlänge an, die größer als 0 ist.
+</nierror>
+<nierror code="-20574">
+Ungültige Filterabgriffe im AM-VSB-Filter-Design-Cluster; Geben Sie eine VSB-Filterlänge an, die größer oder gleich 85 Abgriffe ist.
+</nierror>
+<nierror code="-20575">
+Ungültige Grenzfrequenzparameter im AM-VSB-Filter-Design-Cluster; Geben Sie Werte für den oberen und unteren Durchlass- und Sperrbereich an, die das Nyquist-Kriterium erfüllen, d. h. (parameter * dT) ist kleiner oder gleich 0,5.
+</nierror>
+<nierror code="-20576">
+Ungültige Grenzfrequenzparameter im AM-VSB-Filter-Design-Cluster; Die Grenzfrequenzen des VSB-Filters müssen folgende Bedingungen erfüllen: unterer Durchlassbereich (DB) ist größer oder gleich unterer Sperrbereich (SB), unterer DB ist kleiner oder gleich oberer DB und oberer DB ist kleiner oder gleich oberer SB.
+</nierror>
+<nierror code="-20577">
+Ungültiger Pilotsuchparameter-Cluster; Anzahl der Filterabgriffe muss größer 0, ungefähre Frequenz größer oder gleich 0, Suche (=/- % von Fs) kleiner als 50% und ungefähre Frequenz * dt + 0,01*Suche(%) kleiner als 0,5 (Nyquist-Kriterium) sein.
+</nierror>
+<nierror code="-20578">
+Ungültiger dt-Wert; Um das Nyquist-Kriterium zu erfüllen, muss die Eingangs-Sample-Rate (1/dt) größer als das Doppelte der Trägerfrequenz sein.
+</nierror>
+<nierror code="-20579">
+Ungültige Bandbreite des Durchlassbereichs für Abwärtswandlungs-Tiefpass-FIR-Filter; Bandbreite muss größer als 0 sein.
+</nierror>
+<nierror code="-20580">
+Betrieb mit Reset=TRUE nach Setzen von Flush=TRUE. Durch Setzen von Flush=TRUE werden interne Zustände der Modulations-, Demodulations- und Signalverarbeitungsalgorithmen gelöscht. Mit dieser Einstellung ist kontinuierliches Verarbeiten nicht möglich. Stellen Sie sicher, bei der nächsten Iteration nach dem Setzen von Flush=TRUE die Einstellung Reset=TRUE vorzunehmen, um die internen Zustände der Algorithmen zurückzusetzen.
+</nierror>
+<nierror code="-20581">
+Die Funktion erwartet ein von NULL verschiedenes Argument
+</nierror>
+<nierror code="-20582">
+Der Längenparameter muss positiv sein.
+</nierror>
+<nierror code="-20583">
+Beim Laden einer DLL des Modulation Toolkit trat ein Fehler auf.
+</nierror>
+<nierror code="-20584">
+Ungültiges Session-Handle
+</nierror>
+<nierror code="-20585">
+Unzureichende Ausgangspuffergröße
+</nierror>
+<nierror code="-20586">
+Falsche Attribut-ID
+</nierror>
+<nierror code="-20587">
+Ungültiger Kanal-String.
+</nierror>
+<nierror code="-20588">
+Speicher konnte nicht zugewiesen werden
+</nierror>
+<nierror code="-20650">
+Letzter Fehlercode
+</nierror>
+<nierror code="-21801">
+Ungültige Bit-Anzahl; Der Wert muss positiv sein.
+</nierror>
+<nierror code="-21802">
+Ungültige PN-Sequenzordnung; PN-Sequenzordnung liegt außerhalb des Bereichs (5 bis 31).
+</nierror>
+<nierror code="-21803">
+Leeres Benutzer-Bitmuster für die Erzeugung einer benutzerdefinierten Bitsequenz.
+</nierror>
+<nierror code="-21804">
+Eingangs-Bit-Stream ist leer
+</nierror>
+<nierror code="-21805">
+Eingang "Spreading Code" ist leer.
+</nierror>
+<nierror code="-21806">
+Eingang "Input Chip Stream" ist leer.
+</nierror>
+<nierror code="-21807">
+Länge von "Input Chip Stream" ist kleiner als Länge von "Spreading Code".
+</nierror>
+<nierror code="-21808">
+Eingang "Sync Search Depth" ist kleiner als 1.
+</nierror>
+<nierror code="-21809">
+"Sync Confidence Threshold" außerhalb des gültigen Bereichs (zwischen 0 und 1).
+</nierror>
+<nierror code="-21810">
+"Sync Search Depth" überschreitet Anzahl verfügbarer Bits im Eingangs-Bit-Stream.
+</nierror>
+<nierror code="-21811">
+Sync nicht gefunden.
+</nierror>
+<nierror code="-21812">
+Benutzer-Bitmuster enthält ungültige Werte (nur Einsen und Nullen sind zulässig).
+</nierror>
+<nierror code="-21813">
+Eingangs-Bit-Stream enthält ungültige Werte (nur Einsen und Nullen sind zulässig).
+</nierror>
+<nierror code="-21814">
+"Spreading Code" enthält ungültige Werte (nur Einsen und Nullen sind zulässig).
+</nierror>
+<nierror code="-21815">
+"Input Chip Stream" enthält ungültige Werte (nur Einsen und Nullen sind zulässig).
+</nierror>
+<nierror code="-21816">
+"Samples per Symbol" muss größer als 0 sein.
+</nierror>
+<nierror code="-21817">
+"Symbol Rate" muss größer als 0 sein.
+</nierror>
+<nierror code="-21818">
+"I DC Offset" außerhalb des gültigen Bereichs (-100 bis +100).
+</nierror>
+<nierror code="-21819">
+"Q DC Offset" außerhalb des gültigen Bereichs (-100 bis +100).
+</nierror>
+<nierror code="-21820">
+"IQ Gain Imbalance" außerhalb des gültigen Bereichs (-6 dB bis +6 dB).
+</nierror>
+<nierror code="-21821">
+"Quadrature Skew" außerhalb des gültigen Bereichs (-30 bis +30 Grad).
+</nierror>
+<nierror code="-21822">
+"Samples per Symbol" muss eine gerade Zahl sein.
+</nierror>
+<nierror code="-21823">
+Array mit Koeffizienten des Impulsformfilters oder angepassten Filters ist leer.
+</nierror>
+<nierror code="-21824">
+Ungültige Symbolanzahl; Anzahl muss 2^N Symbole mit N=1,2,3,... sein
+</nierror>
+<nierror code="-21825">
+Symbolwerte müssen eindeutig sein.
+</nierror>
+<nierror code="-21826">
+Symbolwerte müssen zwischen 0 und M-1 liegen, wobei M die Gesamtanzahl der Symbole ist.
+</nierror>
+<nierror code="-21827">
+Ungültige Kombination von "Modulation Type" / "System Filter Characteristic".
+</nierror>
+<nierror code="-21828">
+Fehler beim Filtern der Symbole.
+</nierror>
+<nierror code="-21829">
+Ungültige Symbolanzahl. Anzahl muss 2^N Symbole mit N=2,3,4,... sein.
+</nierror>
+<nierror code="-21830">
+QAM-Abbildung muss quadratisch sein.
+</nierror>
+<nierror code="-21831">
+Filterlänge muss größer als 1 sein.
+</nierror>
+<nierror code="-21832">
+Der Eingang "Filter Parameter" für die Filterung muss zwischen 0 and 1 liegen.
+</nierror>
+<nierror code="-21833">
+"Bits Per Symbol" muss mindestens 1 sein.
+</nierror>
+<nierror code="-21834">
+Breite von "Impairment Measurement Window" muss mindestens zwei Werte enthalten.
+</nierror>
+<nierror code="-21835">
+Startindex von "Impairment Measurement Window" muss positiv sein.
+</nierror>
+<nierror code="-21836">
+Der Signalverlauf benötigt einen "dt"-Parameter, der größer als 0 ist.
+</nierror>
+<nierror code="-21837">
+"Waveform" enthält keine Werte.
+</nierror>
+<nierror code="-21838">
+Symbolwerte müssen im Bereich 0 bis 2^N-1 liegen, wobei N = 2, 3, 4, 5... ist.
+</nierror>
+<nierror code="-21839">
+"Sync Indent" muss größer oder gleich Null sein.
+</nierror>
+<nierror code="-21840">
+"Sync Location Uncertainty" muss größer oder gleich Null sein.
+</nierror>
+<nierror code="-21841">
+Anzahl der Elemente in den Eingängen "Upper Mask", "Ideal Power Curve" aud "Lower Mask" muss identisch sein.
+</nierror>
+<nierror code="-21842">
+Ungültige obere Maske; Eingang ist leer.
+</nierror>
+<nierror code="-21843">
+Ungültige ideale Leistungskurve; Eingang ist leer.
+</nierror>
+<nierror code="-21844">
+Ungültige untere Maske; Eingang ist leer.
+</nierror>
+<nierror code="-21845">
+Die beiden größten Beträge der Symbolwerte für FSK müssen den gleichen Wert und verschiedene Vorzeichen aufweisen.
+</nierror>
+<nierror code="-21846">
+Die Länge von "Input Complex Waveform" muss größer oder gleich der Länge von Lower Mask/Upper Mask/Ideal Power Curve sein.
+</nierror>
+<nierror code="-21847">
+"BER Sync Threshold" außerhalb des gültigen Bereichs (muss zwischen 0 und 1 liegen).
+</nierror>
+<nierror code="-21849">
+Das Array "Fading Profile" weist einen leeren Eingang auf.
+</nierror>
+<nierror code="-21850">
+Sample-Raten müssen größer als 0 sein.
+</nierror>
+<nierror code="-21851">
+"Sample Phase Offset" muss größer oder gleich 0 sein.
+</nierror>
+<nierror code="-21852">
+Neuabtastungsfehler; Interner Fehler in Neuabtastungs-DLL.
+</nierror>
+<nierror code="-21853">
+Einzelfrequenzen müssen größer als 0 sein.
+</nierror>
+<nierror code="-21854">
+Liste anzuwendender Schwingungen ist leer.
+</nierror>
+<nierror code="-21855">
+Ungültige Konstellation; Symbole für maximale Länge zur Berechnung der quadratischen Verzerrung können nicht in den Quadranten 1 und 2 gefunden werden.
+</nierror>
+<nierror code="-21856">
+Ungültige Konstellation; Symbole für maximale Länge zur Berechnung der quadratischen Verzerrung können nicht in den Quadranten 1 und 4 gefunden werden.
+</nierror>
+<nierror code="-21857">
+Ungültige Konstellation; Symbole in den Quadranten 1 und 4 mit denselben I-Werten zur Berechnung der quadratischen Verzerrung können nicht gefunden werden.
+</nierror>
+<nierror code="-21858">
+Synchronisationssequenz kann nicht gemäß Synchronisationsparametern gefunden werden - keine mögliche Sync-Position (d. h. Größe von "Sync Indent" und "Sync Sequence" ist größer als Puffergröße).
+</nierror>
+<nierror code="-21859">
+Ungültiges Format für Offset-PSK-Modulation; Es wird nur Offset-QPSK unterstützt.
+</nierror>
+<nierror code="-21860">
+Ungültiges BER-Konfidenzniveau; Konfidenzniveau muss zwischen 0 und 1 liegen (1 ist dabei ausgeschlossen). Für den Fall "PN Sequence Reference" deaktiviert a -1 die Konfidenzprüfung.
+</nierror>
+<nierror code="-21861">
+dt hat sich seit dem letzten Aufruf von mod_Shift Samples geändert.  Für die erste Ausführung des VIs muss reset? = TRUE sein.
+</nierror>
+<nierror code="-21862">
+Der Eingang "Eye length" oder "Trellis length" muss größer als 0 sein.
+</nierror>
+<nierror code="-21863">
+Ungültige Sample-Rate; Das Verhältnis zwischen alten und neuen Sample-Raten muss im Bereich 1E-4 bis 1E+4 liegen.
+</nierror>
+<nierror code="-21864">
+Ungültiger Eingangsstartwert; Die unteren (rechtsbündigen) Bits des Startwerts müssen bis zur PN-Ordnung von 0 verschieden sein.
+</nierror>
+<nierror code="-21865">
+Ungültiges Eingangssymbol-Array; Eingangssymbol-Array ist leer.
+</nierror>
+<nierror code="-21866">
+Ungültiges Sync-Wert-Array; Eingangs-Sync-Wert-Array ist leer.
+</nierror>
+<nierror code="-21867">
+Ungültiger Wert für Bits pro Sync; Wert muss kleiner oder gleich 32 sein.
+</nierror>
+<nierror code="-21868">
+Ungültiger inverser f-Exponent für Rauschform; Wert muss im Bereich -3 bis 3 liegen.
+</nierror>
+<nierror code="-21869">
+Ungültige Offset-Frequenz; Wert muss im Bereich 7e-5 bis fs/2 liegen, wobei fs die Sample-Rate des komplexen Eingangssignalverlaufs ist.
+</nierror>
+<nierror code="-21870">
+Ungültiger Wert für Dezimierfaktor oder Offset; Dezimierfaktor muss positiv und von 0 verschieden und Offset positiv oder 0 sein.
+</nierror>
+<nierror code="-21871">
+Ungültige Kombination von Blockcodeparametern (n,k,t); Diese Werte müssen n>k, n>t und k, t > 0 erfüllen, um gültigen Blockcode darzustellen. Die maximale zulässige Codewortlänge ist kleiner oder gleich 65535. [Das größte unterstützte Galois-Feld ist GF(2^16).]
+</nierror>
+<nierror code="-21872">
+Ungültige Kombination von (n,k, Bits pro RS-Symbol); Die Beziehung n-k=2*t (wobei t die Fehlerbehebungskapazität in Symbolen ist) muss für gültigen RS-Code erfüllt sein. Für "normalen" RS-Code muss n eine gültige Potenz von zwei minus eins sein. Für "verkürzten" RS-Code muss Bits pro Symbol>0 und n<=2^(Bits pro RS-Symbol)-1 sein. Beispiele für gültige Kombinationen umfassen den normalen RS(255,249,3)-Code und den verkürzten RS(32,28,2)-Code [Bits pro Symbol=8].
+</nierror>
+<nierror code="-21873">
+Ungültige Generatormatrix; Die Generatormatrix darf nicht leer sein. Die Hamming-Gewichtung der Zeilen in der Generatormatrix darf die Bedingungslänge nicht überschreiten. Dadurch wird sichergestellt, dass die Ausgaben des Faltungs-Encoders (1..Codewortlänge,n) nicht durch einen anderen als den aktuellen Eingang und die vorigen K-1-Eingänge (maximale Speicherordnung) beeinflusst werden.
+</nierror>
+<nierror code="-21874">
+Ungültige Kombination von Datenwortlänge (k) und Bedingungslänge (K); Bedingungslänge (K) muss eine positive Ganzzahl sein und das Produkt (K-1)*k darf nicht größer sein als 32 [maximal darstellbare Zustände entspricht 2^[(K-1)*k].
+</nierror>
+<nierror code="-21875">
+Ungültige Traceback-Tiefe (D); Die Traceback-Tiefe (D) muss eine positive Ganzzahl sein.
+</nierror>
+<nierror code="-21876">
+Ungültige Kombination von Equalizer-Parametern und Samples pro Symbol; Die Abgriffe pro Symbolparameter müssen ein positiver Teiler von Samples pro Symbol (16) sein. Parameter-Delta und Delta (stabiler Zustand) müssen positive reelle Zahlen (>0) sein.
+</nierror>
+<nierror code="-21877">
+Größe des Arrays aus Equalizer-Koeffizienten (in) oder Equalizer-Länge (Symbole) ist ungültig; Die Größe des Arrays aus Equalizer-Koeffizienten (in) muss ungerade sein [polymorphe Instanz "Specify coefficients"] und die Equalizer-Länge (Symbole) muss eine positive Ganzzahl sein [polymorphe Instanz "Specify length"].
+</nierror>
+<nierror code="-21878">
+Ungültige Profillänge (Samples), Doppler-Wert (Hz), Fading-Varianz, Sample-Frequenz; Diese Werte müssen für eine gültige Fading-Profil-Generation immer positiv sein.
+</nierror>
+<nierror code="-21879">
+Ungültige Kombination von Doppler-Wert (Hz) und Sample-Frequenz; Das Verhältnis von Doppler-Wert (Hz) zu Sample-Frequenz muss im Bereich ]1e-6,0.5[ liegen.
+</nierror>
+<nierror code="-21881">
+Ungültige Symbolabbildung; Werte der Symbolabbildung müssen auf einer geraden Linie liegen.
+</nierror>
+<nierror code="-21882">
+Ungültiges Referenzmuster; Nur Einsen und Nullen sind zulässig.
+</nierror>
+<nierror code="-21883">
+Ungültige Referenzmusterlänge; Länge muss mindestens zwei betragen.
+</nierror>
+<nierror code="-21884">
+Ungültige Abweichung; Wert muss positiv sein.
+</nierror>
+<nierror code="-21885">
+Ungültige Trägerphasenkorrektur; Wert muss größer als 0 sein.
+</nierror>
+<nierror code="-21886">
+Ungültige ASK-Symbolabbildung; Elemente der ASK-Symbolabbildung müssen im ersten Quadranten der komplexen Ebene liegen.
+</nierror>
+<nierror code="-21887">
+Ungültige Kombination aus Rate (k/n) und Bedingungslänge (K); Generatormatrix ist momentan für diese Kombination nicht verfügbar.
+</nierror>
+<nierror code="-21888">
+Ungültiger M-ary-Wert; muss positive, von 0 verschiedene Potenz von 2 sein.
+</nierror>
+<nierror code="-21889">
+Angeforderte Galois-Feld-Ordnung wird von aktueller Version nicht unterstützt. Unterstützte Galois-Felder haben die Form "GF(2^m)" mit m=2..16.
+</nierror>
+<nierror code="-21890">
+Ungültige BCH-Codewortlänge n. Gültige BCH-Codewortlängen haben die Form "n=2^m-1", entsprechend dem Galois-Feld GF(n+1).
+</nierror>
+<nierror code="-21891">
+Beeinträchtigungs-Messfunktion führt für das zugehörige Modulationsschema keine Messungen von IQ-Ungleichgewicht (dB), quadratischer Verzerrung (Grad) und Gleichspannungs-Offset durch.
+</nierror>
+<nierror code="-21892">
+Primitives RS-Galois-Element und Galois-Feld-Ordnung 2^m-1 in GF(2^m) müssen teilerfremd sein.
+</nierror>
+<nierror code="-21893">
+RS Start Root Exponent muss für normale Reed-Solomon-Codes im Bereich [0,n-1] und für verkürzte Reed-Solomon-Codes im Bereich [0,2^m-1] liegen, wobei m die Bits pro RS-Symbol darstellt.
+</nierror>
+<nierror code="-21894">
+Ungültige Werte für eingegebene RS-Code-Symbole. Wenn m die Bits pro RS-Symbol darstellt, müssen Symbolwerte bei Polynomen im Bereich [0,2^m-1] und bei Exponenten im Bereich [-1,2^m-2] liegen.
+</nierror>
+<nierror code="-21895">
+Ungültige Session für Modulation Toolkit; Erstellen Sie eine gültige Session mithilfe des VIs "MT Open Session".
+</nierror>
+<nierror code="-21896">
+MT UnPack Bits.vi enthält ungültige Eingaben. Stellen Sie sicher, dass der Bitwert pro Integer positiv und kleiner oder gleich 32 ist. Prüfen Sie auch, dass die Eingangswerte im Bereich [-2^(Bits pro Integer-1)-1,2^Bits pro Integer-1] liegen.
+</nierror>
+<nierror code="-21897">
+Ungültige Array-Größen für Symbol-Amplituden-Arrays (I/Q). Die Größe des Symbol-Amplituden-Arrays (I) sollte der Anzahl der Spalten in der Symbolwerte-Matrix entsprechen. Die Größe des Symbol-Amplituden-Arrays (Q) sollte der Anzahl der Zeilen in der Symbolwerte-Matrix entsprechen.
+</nierror>
+<nierror code="-21898">
+MT Generate Symbol Map (Circular).vi enthält ungültige Dimensionsgrößen. Die Dimensionen von Symbolwerte- und Symbolphasen-Matrizen sollten übereinstimmen. Des Weiteren müssen Symbol-Radius-Array-Werte ungleich 0 sein und der Anzahl der Zeilen in der Symbolwerte-Matrix entsprechen.
+</nierror>
+<nierror code="-21899">
+MT Convolutional Decode.vi enthält ungültige Parameter für Soft-Dekodierung. Die Anzahl der Soft-Decision-Bits m muss größer als 0 sein. Des Weiteren muss die Größe der quantisierten Eingangs-Integer-Codesymbole ungleich 0 sein und im Bereich [0,2^m-1] liegen.
+</nierror>
+<nierror code="-21900">
+Das Array "Convolutional Interleaver Delay" ist leer. "Interleaver Delays" muss für die Instanz "Generic" angegeben werden. Für die Instanz "Standard" muss der Eingang "number of branches" ungleich 0 sein.
+</nierror>
+<nierror code="-21901">
+Mindestens ein Element im Array "Convolutional Interleaver Delay" ist negativ. Elemente in "Interleaver Delay" müssen positiv sein.
+</nierror>
+<nierror code="-21902">
+Die Anzahl der Zeilen im Array "initial state" muss gleich der Anzahl der Elemente im Array "interleaver delays" sein. Die Anzahl der Spalten des Arrays "initial state" muss dem Element mit dem größten Wert in "interleaver delay" entsprechen, d. h. der größten Interleaver-Verzögerung. Bei leerem "initial state"-Array werden die Schieberegisterzustände des Faltungs-Interleaver auf 0 gesetzt.
+</nierror>
+<nierror code="-21903">
+Anzahl der Zeilen und Spalten muss für Block-Interleaver größer als 0 sein.
+</nierror>
+<nierror code="-21904">
+Die Elemente des Permutations-Arrays müssen zwischen 0 und (N-1) liegen, wobei N die Anzahl der Elemente ist. 0 und N-1 sind eingeschlossen.
+</nierror>
+<nierror code="-21905">
+Die Elemente des Permutations-Arrays müssen sich voneinander unterscheiden. Wenn die Länge des Permutations-Arrays N ist, können die Elemente die Werte 0,1,2,...,N-1 annehmen.
+</nierror>
+<nierror code="-21906">
+Das erste und letzte Element des primitiven Polynoms muss 1 betragen. Wenn das Polynom vom Grad N ist, entspricht das erste Element dem Koeffizienten der nullten Potenz von x und das letzte Element dem Koeffizienten der N-ten Potenz von x.
+</nierror>
+<nierror code="-21907">
+Der Wert darf nicht +Infinity, -Infinity oder "Not a Number" sein. Dies kann beispielsweise bei der Division durch 0 oder der Berechnung der Quadratwurzel aus einer negativen Zahl passieren.
+</nierror>
+<nierror code="-21908">
+Unzureichende Systemressourcen, um notwendige Speicherzuweisung durchzuführen.
+</nierror>
+<nierror code="-21909">
+Interner Fehler: Ungültige Eigenschafts-ID. Wenden Sie sich an National Instruments.
+</nierror>
+<nierror code="-21910">
+Fehler beim Modulationsindex für CPM. Stellen Sie sicher, dass das Modulationsindex-Cluster-Array nicht leer ist und nur positive Werte enthält.
+</nierror>
+<nierror code="-21911">
+Eingangsmatrix für Paritätsprüfung ist rangdefizient.
+</nierror>
+<nierror code="-21912">
+Ungültiger M-ary-Wert für M-QAM. Gültige Werte sind positive Potenzen von 2 zwischen 4 und 256.
+</nierror>
+<nierror code="-21913">
+Es werden nur ungerade Werte von 'j' unterstützt.
+</nierror>
+<nierror code="-21914">
+Ungültiger Bits-pro-Integer-Eingang; Stellen Sie sicher, dass der Wert positiv und kleiner als 32 für "Unsigned" (vorzeichenlose) und kleiner oder gleich 32 für "Signed" (vorzeichenbehaftete) Integer ist.
+</nierror>
+<nierror code="-21915">
+Anzahl der Pfade, für die ein Leistungsverzögerungsprofil angegeben ist, muss der Anzahl der Zeilen des Eingangs "fading profile" entsprechen.
+</nierror>
+<nierror code="-21916">
+Anzahl der Pfade sollte zwischen 1 und 31 liegen.
+</nierror>
+<nierror code="-21917">
+Betrieb mit Reset=TRUE nach Setzen von Flush=TRUE. Durch Setzen von Flush=TRUE werden interne Zustände der Modulations-, Demodulations- und Signalverarbeitungsalgorithmen gelöscht. Mit dieser Einstellung ist kontinuierliches Verarbeiten nicht möglich. Stellen Sie sicher, bei der nächsten Iteration nach dem Setzen von Flush=TRUE die Einstellung Reset=TRUE vorzunehmen, um die internen Zustände der Algorithmen zurückzusetzen.
+</nierror>
+<nierror code="-21918">
+Negative Verzögerungen sind im Leistungsverzögerungsprofil unzulässig.
+</nierror>
+<nierror code="20557">
+Die RF-Dämpfung liegt nicht zwischen 0 dB und 50 dB. Der Wert wurde daher an diesen Bereich angepasst. Weitere Informationen erhalten Sie auf der Seite "Signal Levels".
+</nierror>
+<nierror code="20558">
+Der FM-Hub passt nicht zur Abtastrate der I-Q-Daten. Der FM-Hub wird nur als Skalierungsfaktor im Demodulationsschritt benötigt. Wenn der eingegebene Wert der tatsächliche FM-Hub des Signals (bestehend aus den I-Q-Daten) ist, kann das Ursprungssignal nicht genau wiedergegeben werden. Ändern Sie in diesem Fall die Parameter zur Erzeugung oder Erfassung der I-Q-Daten.
+</nierror>
+<nierror code="20559">
+Der Decoder konnte innerhalb der angegebenen maximalen Anzahl an Iterationen keine Konvergenz erreichen.
+</nierror>
+<nierror code="20560">
+Die PAM-Symbolabbildung enthält alle Symbole in einem Quadranten.
+</nierror>
+<nierror code="20561">
+Es wird empfohlen, identische Längen für das Profil und die Sample-Anzahl im komplexen Eingangssignalverlauf zu verwenden, um kontinuierliche Phasen im Signalverlauf sicherzustellen.
+</nierror>
+<nierror code="20562">
+Unzureichende Länge für den Fehler-String
+</nierror>
+<nierror code="20571">
+Modulationsindex größer als Eins; Demodulierung des Signals kann zur Verzerrung des wiederhergestellten Nachrichtensignals führen.
+</nierror>
+<nierror code="21848">
+Unzureichende Bit-Anzahl für BER-Messung, um zu bestimmen, ob eine Sync mit dem angegebenen Konfidenzintervall gefunden wurde.
+</nierror>
+<nierror code="21880">
+Unzureichende Profillänge (Samples) für eine gültige Rayleigh/Rician-Verteilung erzeugter Samples. Profillänge (Samples) muss mindestens das Zehnfache von Sample-Frequenz/Doppler-Wert (Hz) für eine statistisch signifikante Fading-Profil-Generation betragen.
+</nierror>
+</nidocument>
