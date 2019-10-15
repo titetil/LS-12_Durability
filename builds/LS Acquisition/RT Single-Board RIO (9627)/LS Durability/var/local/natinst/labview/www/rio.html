@@ -1,0 +1,49 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Draft//EN">
+<HTML>
+<HEAD>
+<Script Language="JavaScript">
+var userAgent = navigator.userAgent;
+var versionOffset = userAgent.indexOf("Chrome");
+
+if (versionOffset != -1)
+{
+    var fullVersion = userAgent.substring(versionOffset+7);
+    var majorVersion = parseInt(''+fullVersion,10);
+    if (majorVersion >= 42)
+    {
+	var plugins = navigator.plugins;
+	var hasNIPlugin = false;
+	for (var i = 0; i < plugins.length; i++) {
+		if (plugins[i].name.indexOf("National Instruments") != -1) {
+			hasNIPlugin = true;
+		}
+	}
+	if (hasNIPlugin == false) {
+        	document.write('<strong><em>NI has detected that your ' +
+                               'browser might be blocking a plug-in.  '+
+                               'Visit ni.com/info and enter the following '+
+                               'Info Code for more information: '+
+                               'BlockedPlugin</em></strong>')
+	}
+    }
+}
+</Script>
+<TITLE></TITLE>
+</HEAD>
+<BODY >
+<H1></H1>
+<P>
+<center>
+<TABLE BORDER=0 BORDERCOLOR = #000000><TR><TD>
+<OBJECT ID="LabVIEWControl" CLASSID="CLSID:A40B0AD4-B50E-4E58-8A1D-8544233807BB" WIDTH=1193 HEIGHT=788 CODEBASE="ftp://ftp.ni.com/support/labview/runtime/windows/2019/LVRTE2019min.exe">
+<PARAM name="LVFPPVINAME" value="LS Durability.lvproj/EDIT__RT Single-Board RIO (9627)__{62400477-EBCE-4A0D-A3CD-018EE69D03DD}/LS Acquisition Main (RT).vi">
+<PARAM name="REQCTRL" value=true>
+<EMBED SRC=".LV_FrontPanelProtocol.rpvi190" LVFPPVINAME="LS Durability.lvproj/EDIT__RT Single-Board RIO (9627)__{62400477-EBCE-4A0D-A3CD-018EE69D03DD}/LS Acquisition Main (RT).vi" REQCTRL=true TYPE="application/x-labviewrpvi190" WIDTH=1193 HEIGHT=788  PLUGINSPAGE="http://digital.ni.com/express.nsf/bycode/exck2m">
+</EMBED>
+</OBJECT>
+</TD></TR></TABLE>
+</center>
+<P>
+
+</BODY>
+</HTML>

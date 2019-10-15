@@ -7585,7 +7585,11 @@ DirectoryIndex index.htm
 					<Item Name="vi.lib" Type="Folder">
 						<Item Name="FxpSim.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/FXPMathLib/sim/FxpSim.dll"/>
 						<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
+						<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
 					</Item>
+					<Item Name="Pulse Width Modulation (FPGA).vi" Type="VI" URL="../FPGA/SubVIs/Pulse Width Modulation (FPGA).vi"/>
+					<Item Name="Moving Average.vi" Type="VI" URL="../FPGA/SubVIs/Moving Average.vi"/>
+					<Item Name="Voltage or Resistance.vi" Type="VI" URL="../FPGA/Voltage or Resistance.vi"/>
 				</Item>
 				<Item Name="Build Specifications" Type="Build">
 					<Item Name="LS Durability Main (FPGA)" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
@@ -7672,6 +7676,7 @@ DirectoryIndex index.htm
 		<Item Name="LS Acquisition Main (RT).vi" Type="VI" URL="../LS Acquisition Main (RT).vi"/>
 		<Item Name="LS Durability Main (RT).vi" Type="VI" URL="../LS Durability Main (RT).vi"/>
 		<Item Name="rio_9627.html" Type="Document" URL="../rio_9627.html"/>
+		<Item Name="rio_9627_das.html" Type="Document" URL="../rio_9627_das.html"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="1D Array to String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/1D Array to String__ogtk.vi"/>
@@ -8142,20 +8147,21 @@ DirectoryIndex index.htm
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="LS Acquisition" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{D40F8006-9BF0-44CE-B732-90DF7711CEF4}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{ED8AC79E-93C4-4DC3-B39E-CB3248021326}</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{91BB6744-51A3-4C7F-990A-9E8C065BD180}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{D7BAAF74-DE82-4147-B317-824550472CB1}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{4EA325ED-0239-4AF8-87CB-6173A21A7325}</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{C336A46C-972A-4FCC-83E8-7552D85BB547}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">LS Acquisition</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/Users/gtetil/Documents/Projects/LS_Acquisition/builds/LS Acquisition/NI_AB_TARGETNAME/LS Acquisition</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/LS Acquisition/NI_AB_TARGETNAME/NI_AB_PROJECTNAME</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{BE5F6BE6-8576-4E4C-B10B-F21FC00F5C60}</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{05305BFC-6814-4963-9BEB-E61334DA8E9B}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">13</Property>
+				<Property Name="Bld_version.build" Type="Int">19</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
@@ -8169,22 +8175,22 @@ DirectoryIndex index.htm
 				<Property Name="Destination[2].path" Type="Path">/var/local/natinst/labview/www</Property>
 				<Property Name="Destination[2].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{5144D9BE-85B5-49D8-BA6A-5AFC15673B70}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{6664391B-76D1-40AB-84C5-8F305D64DEEE}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/RT Single-Board RIO (9627)/LS Durability Main (RT).vi</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[2].itemID" Type="Ref"></Property>
+				<Property Name="Source[2].itemID" Type="Ref">/RT Single-Board RIO (9627)/rio_9627.html</Property>
 				<Property Name="Source[2].newName" Type="Str">rio.html</Property>
-				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/RT Single-Board RIO (9627)/LS Acquisition Main (RT).vi</Property>
-				<Property Name="Source[3].sourceInclusion" Type="Str">TopLevel</Property>
-				<Property Name="Source[3].type" Type="Str">VI</Property>
-				<Property Name="Source[4].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[4].itemID" Type="Ref"></Property>
-				<Property Name="Source[4].newName" Type="Str">rio.html</Property>
-				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/RT Single-Board RIO (9627)/rio_9627_das.html</Property>
+				<Property Name="Source[3].newName" Type="Str">rio.html</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/RT Single-Board RIO (9627)/LS Acquisition Main (RT).vi</Property>
+				<Property Name="Source[4].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[4].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">5</Property>
 				<Property Name="TgtF_companyName" Type="Str">TI Automotive</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">LS Durability</Property>
