@@ -7587,9 +7587,6 @@ DirectoryIndex index.htm
 						<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 						<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
 					</Item>
-					<Item Name="Pulse Width Modulation (FPGA).vi" Type="VI" URL="../FPGA/SubVIs/Pulse Width Modulation (FPGA).vi"/>
-					<Item Name="Moving Average.vi" Type="VI" URL="../FPGA/SubVIs/Moving Average.vi"/>
-					<Item Name="Voltage or Resistance.vi" Type="VI" URL="../FPGA/Voltage or Resistance.vi"/>
 				</Item>
 				<Item Name="Build Specifications" Type="Build">
 					<Item Name="LS Durability Main (FPGA)" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
@@ -8161,7 +8158,7 @@ DirectoryIndex index.htm
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{05305BFC-6814-4963-9BEB-E61334DA8E9B}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">19</Property>
+				<Property Name="Bld_version.build" Type="Int">20</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
